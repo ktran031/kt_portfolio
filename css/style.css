@@ -310,6 +310,11 @@ body {
   color: black;
 }
 
+.fancybox-close {
+  top: 0px;
+  right: 0px; 
+}
+
 #portfolio {
   background-image: url("../images/moon.jpg");
   height: auto;
