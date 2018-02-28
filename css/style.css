@@ -257,7 +257,6 @@ body {
 
 
 .video-background {
-  background-image: url("../images/overlay.png");
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
@@ -265,7 +264,6 @@ body {
 
 .video-foreground,
 .video-background iframe {
-  background-image: url("../images/overlay.png");
   ;
   position: absolute;
   top: 0;
@@ -575,7 +573,7 @@ footer#footer {
 
 
 /* Extra Things */
-body{background: #eee ;font-family: 'Open Sans'!important, sans-serif!important;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 /* Back to Top End */ 
 
