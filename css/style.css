@@ -739,10 +739,6 @@ progress[value]::-moz-progress-bar {
 }
 
 
-
-
-
-
 .html5::-webkit-progress-value,
 .bootstrap::-webkit-progress-value  {
   /* Gradient background with Stripes */
@@ -761,7 +757,10 @@ progress[value]::-moz-progress-bar {
 
 .person-skill::-webkit-progress-value,
 .css3::-webkit-progress-value,
-.php::-webkit-progress-value 
+.php::-webkit-progress-value,
+.javascript::-webkit-progress-value,
+.sass::-webkit-progress-value,
+.react::-webkit-progress-value
 {
   /* Gradient background with Stripes */
   background-image:
@@ -778,7 +777,7 @@ progress[value]::-moz-progress-bar {
 }
 
 .jquery::-webkit-progress-value,
-.modx::-webkit-progress-value 
+.modx::-webkit-progress-value
 {
   /* Gradient background with Stripes */
   background-image:
@@ -813,7 +812,6 @@ progress[value]::-moz-progress-bar {
 
 .css3::-moz-progress-bar,
 .php::-moz-progress-bar {
-{
   /* Gradient background with Stripes */
   background-image:
   -moz-linear-gradient( 135deg,
@@ -828,7 +826,7 @@ progress[value]::-moz-progress-bar {
      -moz-linear-gradient( left, #09c, #ff0);
 }
 
-.jquery::-moz-progress-bar,
+.react::-moz-progress-bar,
 .node-js::-moz-progress-bar {
   /* Gradient background with Stripes */
   background-image:
