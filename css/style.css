@@ -106,6 +106,14 @@ hr {
 .social-button.twitter .fa {
   color: #0177B5;
 }
+
+.social-button.codepen:before {
+    background-color: #757575;
+}
+.social-button.codepen .fa {
+    color: #525252;
+}
+
 .social-button.google:before {
   background-color: #DC4A38;
 }
