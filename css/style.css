@@ -194,7 +194,7 @@ body {
   padding-bottom:40px;
   width:100%;
   position:relative;
-  background-position: 61.5% 17%;
+  background-position: 78.15% 48%;
  }
 
 /* Banner Responsive */
@@ -246,7 +246,7 @@ body {
 }
 
 .social-top {
-  padding-top: 115px;
+  /*padding-top: 115px;*/
 }
 
 #bgvid {
@@ -307,7 +307,6 @@ body {
 
 #about h2, #portfolio h2 {
   color: white;
-  font-weight: lighter;
     text-align: center;
 }
 #about h4, #portfolio h4 {
@@ -323,6 +322,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
+    font-size: 16px;
 }
 
 .modal-container img{
@@ -339,8 +339,8 @@ body {
 }
 
 .fancybox-close {
-  top: 0px;
-  right: 0px; 
+    top: 35px;
+    right: 35px;
 }
 
 #portfolio {
@@ -602,7 +602,6 @@ footer#footer {
 
 
 /* Extra Things */
-body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
 
 /* Back to Top End */ 
 
