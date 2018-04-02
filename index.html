@@ -29,10 +29,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">K's Universe</a></li>
-        <li><a href="#portfolio">Planets</a></li>
-        <li><a href="#hp-progress">Life Forms</a></li>
-        <li><a target="_blank" href="resume/resume.pdf">Explore More</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#hp-progress">Skills</a></li>
+        <li><a target="_blank" href="resume/resume.pdf">Resume</a></li>
       </ul>
     </div>
   </div>
@@ -73,7 +73,7 @@
           <a target="_blank" href="https://github.com/ktran031" class="social-button github"><i class="fa fa-github"></i></a>
           <a target="_blank" href="https://www.linkedin.com/in/khoi-tran-js
 " class="social-button twitter"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="https://www.freecodecamp.com/ktran031" class="social-button codepen"><i class="fa fa-codepen"></i></a>
+          <a target="_blank" href="https://codepen.io/ktran031/" class="social-button codepen"><i class="fa fa-codepen"></i></a>
           <a href="mailto:ktran031@gmail.com" class="social-button dribbble"><i class="fa fa-envelope"></i></a>
         </div>    
       </div>
@@ -82,11 +82,17 @@
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid text-center">
-  <div class="row slideanim">
+<div id="about" class="container-fluid">
+  <div class="row slideanim section-container">
     <div class="col-sm-12">
       <h2>About Me</h2><hr />
-       <h4>My name is Khoi Tran and I’m a front-end web developer that is currently looking for new and challenging projects. <br />I began studying Web Design at an SEO company, landing my first job as a WordPress Web Designer.<br /> In 2016, I graduated from the Front-End Web Development program at General Assembly.<br />In 2014, I graduated from the University of California, Riverside with a B.A. in Sociology, and found my passion for web development<br /> reignited after helping several colleagues with their own up and coming websites.<br /> When I’m not hard at work developing new projects, you can find me at the gym trying to maintain an active <br />and healthy lifestyle where I can challenge myself physically and mentally!</h4>
+      <h4>My name is Khoi Tran and I’m a Front End Web Developer that is currently looking for new and challenging projects.</h4>
+      <h4>I'm a detail oriented Front End Developer who will always get things done, no matter the obstacles. I specializes in HTML5, CSS3, JavaScript and more.<br /><br />I'm extremely loyal and passionate to the works that I'm involved with, and I'm always looking forward for new challenges and obstacles.&nbsp;<br /><br />Through the experience that I achieved from work and school, I was able to guide many people with my leadership skills.&nbsp;<br /><br />I love to interact with many different types of people because I could always learn something amazing from each of the individual's personality.</h4>
+
+      <h4>In 2014, I graduated from the University of California, Riverside with a B.A. in Sociology. </h4>
+      <h4>In 2015, I began studying Web Design at an SEO company, landing my first job as a WordPress Web Designer.</h4>
+        <h4>In 2016, I graduated from the Front-End Web Development program at General Assembly and found my passion for web development reignited after helping several colleagues with their own up and coming websites.</h4>
+        <h4>When I’m not hard at work developing new projects, you can find me at the gym trying to maintain an active and healthy lifestyle where I can challenge myself physically and mentally!</h4>
       <img src="images/khoi.jpg" class="img-circle img-responsive logo center-block" alt="khoi" width="250" height="250">
     </div>
   </div>
@@ -98,8 +104,11 @@
 
 <!-- Portfolio -->
 <div id="portfolio" class="container-fluid text-center">
-  <h2>Portfolio</h2><hr />
-  <h4>Below you can find websites that I contributed to and was heavily involved in thus far. <br />These projects demonstrate my skills using<br /> Adobe Photoshop, HTML, CSS, SASS, Bootstrap Javascript, jQuery, PHP, and WordPress.</h4>
+  <div class="section-container">
+    <h2>Portfolio</h2><hr />
+    <h4>Below you can find websites that I contributed to and was heavily involved in thus far. These projects demonstrate my skills using Adobe Photoshop, HTML, CSS, SASS, Bootstrap Javascript, jQuery, PHP, and WordPress.</h4>
+  </div>
+
   <div class="row slideanim text-center">
 
   <div class="p-wrapper col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -107,14 +116,22 @@
         <img class="img-responsive" src="images/portfolio_dcauto.jpg" alt="">
             <div class="overlay">
                 <h2>DC Auto Auction</h2>
-                  <p><a id="inline" href="#dcauto">More Info</a>
-                    <div style="display:none">
-                      <div id="dcauto">
-                    <h2>DC Auto Auction</h2>
-                  <a target="_blank" href="http://www.dcautoauction.net/"><img class="img-responsive" src="images/full_dcauto.jpg" alt=""></a>
+                  <p><a id="inline" href="#dcauto">More Info</a></p>
+                  <div style="display:none">
+                  <div id="dcauto">
+                    <div class="modal-container">
+                      <h2>Client: DC Auto Auction</h2>
+                      <h4>Tasks: </h4>
+                      <ul>
+                        <li>Redesign a non-responsive page that used Flash into a brand new responsive mobile friendly website.</li>
+                        <li>I was the lead Front End Developer for this project and worked closely with the design team to successfully build a custom mobile responsive theme for an auction house utilizing WordPress.</li>
+                      </ul>
+                      <p>You can view the client's live website by clicking on the image below.</p>
+                      <a target="_blank" href="http://www.dcautoauction.net/"><img class="img-responsive center-block" src="images/full_dcauto.jpg" alt=""></a>
+                    </div>
               </div>
             </div>
-          </p>
+
       </div>
     </div>
   </div>
@@ -124,14 +141,24 @@
         <img class="img-responsive" src="images/portfolio_mikelson.jpg" alt="">
             <div class="overlay">
                 <h2>Mikelson Yachts</h2>
-                  <p><a id="inline" href="#mikelson">More Info</a>
+                  <p><a id="inline" href="#mikelson">More Info</a></p>
                     <div style="display:none">
                       <div id="mikelson">
-                    <h2>Mikelson Yachts</h2>
-                  <a target="_blank" href="http://www.mikelsonyachts.com/"><img class="img-responsive" src="images/full_mikelson.jpg" alt=""></a>
+                        <div class="modal-container">
+                        <h2>Client: Mikelson Yachts</h2>
+                        <h4>Tasks: </h4>
+                          <ul>
+                            <li>Install a live chat API to the page.</li>
+                            <li>Implement a background video to pages.</li>
+                            <li>Restyle pages requested from the client.</li>
+                            <li>In addition, I was in charge of regular maintenance and debugging bugs for this website.</li>
+                          </ul>
+              <p>You can view the client's live website by clicking on the image below.</p>
+              <a target="_blank" href="http://www.mikelsonyachts.com/"><img class="img-responsive center-block" src="images/full_mikelson.jpg" alt=""></a>
+            </div>
               </div>
             </div>
-          </p>
+
       </div>
     </div>
   </div>
@@ -141,14 +168,23 @@
         <img class="img-responsive" src="images/portfolio_agility.jpg" alt="">
             <div class="overlay">
                 <h2>Agility Fuel Solutions</h2>
-                  <p><a id="inline" href="#Agility">More Info</a>
+                  <p><a id="inline" href="#Agility">More Info</a>/p>
                     <div style="display:none">
                       <div id="Agility">
-                    <h2>Agility Fuel Solutions</h2>
-                  <a target="_blank" href="http://www.agilityfuelsolutions.com/"><img class="img-responsive" src="images/full_agility.jpg" alt=""></a>
+                        <div class="modal-container">
+                    <h2>Client: Agility Fuel Solutions</h2>
+                          <h4>Tasks: </h4>
+                          <ul>
+                            <li>Website redesign and content change.</li>
+                            <li>I was the main developer for this project and was in charge of consulting with the client on their re-branding process.</li>
+                            <li>I restyled the whole website to match with their new logos and changed out all of their old content.</li>
+                          </ul>
+                          <p>You can view the client's live website by clicking on the image below.</p>
+                  <a target="_blank" href="http://www.agilityfuelsolutions.com/"><img class="img-responsive center-block" src="images/full_agility.jpg" alt=""></a>
+                        </div>
               </div>
             </div>
-          </p>
+
       </div>
     </div>
   </div>
@@ -158,14 +194,23 @@
         <img class="img-responsive" src="images/portfolio_hornburg.jpg" alt="">
             <div class="overlay">
                 <h2>Hornburg</h2>
-                  <p><a id="inline" href="#Hornburg">More Info</a>
+                  <p><a id="inline" href="#Hornburg">More Info</a></p>
                     <div style="display:none">
                       <div id="Hornburg">
-                    <h2>Hornburg</h2>
-                  <a target="_blank" href="http://www.hornburg.com/"><img class="img-responsive" src="images/full_hornburg.jpg" alt=""></a>
+                        <div class="modal-container">
+                    <h2>Client: Hornburg</h2>
+                          <h4>Tasks: </h4>
+                          <ul>
+                            <li>Build landing pages for their Jaguar and Landrover's special promotions and perform regular maintenance duties for the page.</li>
+                            <li>I worked closely with the main Digital Marketing Manager for their main dealership website.</li>
+                            <li>I built out all of their landing pages while maintaining the inventory regularly for the client.</li>
+                            <li>You can view the client's live website by clicking on the image below.</li>
+                          </ul>
+                  <a target="_blank" href="http://www.hornburg.com/"><img class="img-responsive center-block" src="images/full_hornburg.jpg" alt=""></a>
+                        </div>
               </div>
             </div>
-          </p>
+
       </div>
     </div>
   </div>
@@ -178,8 +223,17 @@
                   <p><a id="inline" href="#Covert">More Info</a>
                     <div style="display:none">
                       <div id="Covert">
-                    <h2>Covert Dodge</h2>
-                  <a target="_blank" href="http://www.covertdodge.com/"><img class="img-responsive" src="images/full_covert.jpg" alt=""></a>
+                        <div class="modal-container">
+                    <h2>Client: Covert Dodge</h2>
+              <h4>Tasks: </h4>
+                          <ul>
+                            <li>Built landing pages. Transferred all of their existing content from an old ModX build into a brand new WordPress build and restyled pages from the old site to match with the new site's layout.</li>
+                            <li>Worked closely with the backend team to connect everything together.</li>
+                            <li>Proofread and led the digital marketing team to implement the correct content into the new page.</li>
+                          </ul>
+                          <p>You can view the client's live website by clicking on the image below.</p>
+                  <a target="_blank" href="http://www.covertdodge.com/"><img class="img-responsive center-block" src="images/full_covert.jpg" alt=""></a>
+                        </div>
               </div>
             </div>
           </p>
@@ -195,8 +249,19 @@
                   <p><a id="inline" href="#Yark">More Info</a>
                     <div style="display:none">
                       <div id="Yark">
-                    <h2>BMW of Toledo</h2>
-                  <a target="_blank" href="http://www.yarkbmw.com/"><img class="img-responsive" src="images/full_yark.jpg" alt=""></a>
+                        <div class="modal-container">
+                    <h2>Client: BMW of Toledo</h2>
+              <h4>Tasks: </h4>
+              <ul>
+                <li>Website Re-branding.</li>
+                <li>Debugged any inventory related issues.</li>
+                <li>Updated service and special coupons on the daily basis.</li>
+                <li>Built landing pages for the dealearship.</li>
+                <li></li>
+              </ul>
+              <p>You can view the client's live website by clicking on the image below.</p>
+                  <a target="_blank" href="http://www.yarkbmw.com/"><img class="img-responsive center-block" src="images/full_yark.jpg" alt=""></a>
+            </div>
               </div>
             </div>
           </p>
@@ -209,13 +274,21 @@
         <img class="img-responsive" src="images/portfolio_monsento_traits.jpg" alt="">
             <div class="overlay">
                 <h2>Monsento Traits</h2>
-                  <p><a id="inline" href="#Truess">More Info</a>
+                  <p><a id="inline" href="#Monsanto">More Info</a>
                     <div style="display:none">
-                      <div id="Truess">
-                    <h2>Monsento Traits</h2>
-                  <img class="img-responsive" src="images/full_monsento_traits.jpg" alt="">
-                        <h2>Monsento Traits'<br /> Interactive Booth<br /> at a trade show.</h2>
-                        <img src="images/monsento_traits_booth.jpg" alt="" class="img-responsive">
+                      <div id="Monsanto">
+                        <div class="modal-container">
+                    <h2>Client: Monsento Traits</h2>
+                          <h4>Tasks: </h4>
+                          <ul>
+                            <li>Built an interactive web application to showcase their corn traits technologies.</li>
+                            <li>Worked closely with the creative team to implement animations and interaction for the page.</li>
+                          </ul>
+                          <strong>Unfortunately, this web app is not available to view to the public.</strong>
+                  <img class="img-responsive center-block" src="images/full_monsento_traits.jpg" alt="">
+                        <strong>Monsento Traits' interactive booth at a trade show.</strong>
+                        <img src="images/monsento_traits_booth.jpg" alt="" class="img-responsive center-block">
+                        </div>
               </div>
             </div>
           </p>
@@ -231,11 +304,19 @@
                   <p><a id="inline" href="#KW">More Info</a>
                     <div style="display:none">
                       <div id="KW">
-                    <h2>KW Kitchen Designs</h2>
-                  <a target="_blank" href="http://www.kitchenremodelinginwesthempsteadny.com/"><img class="img-responsive" src="images/full_kw.jpg" alt=""></a>
+                        <div class="modal-container">
+                    <h2>Client: KW Kitchen Designs</h2>
+                          <h4>Tasks: </h4>
+              <ul>
+                <li>Designed the page using Adobe Photoshop.</li>
+                <li>Worked with the SEO team to get all the keywords necessary to help the page rank on Google, Bing, and Yahoo.</li>
+              </ul>
+              <p>You can view the client's live website by clicking on the image below.</p>
+                  <a target="_blank" href="http://www.kitchenremodelinginwesthempsteadny.com/"><img class="img-responsive center-block" src="images/full_kw.jpg" alt=""></a>
+                        </div>
               </div>
             </div>
-          </p> 
+          </p>
       </div>
     </div>
   </div>
@@ -245,121 +326,23 @@
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
-<!--<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p><span class="glyphicon glyphicon-map-marker"></span> CA, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>(714) 421-0767</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>ktran031@gmail.com</p>
-    </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>-->
-
-<!-- Progres Bar -->
+<!-- Progress Bar -->
 <div id="hp-progress" class="container-fluid">
 <h2 class="text-center">My Skill Set</h2><hr />
   <div class="col-sm-12 slideanim">
-  
-    <ul>
-  <li>
 
-      <!-- Me -->
-    <p style="width:100%" data-value="100">Getting Jobs Done</p>
-    <progress max="100" value="100" class="person-skill">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 100%">100%</span>
-      </div>
-    </progress> 
-       
-    <!-- HTML5 -->
-    <p style="width:80%" data-value="90">HTML5</p>
-    <progress max="100" value="90" class="html5">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 90%">90%</span>
-      </div>
-    </progress>
-    
-    <!-- CSS3 -->
-    <p style="width:70%" data-value="80">CSS3</p>
-    <progress max="100" value="80" class="css3">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 80%">80%</span>
-      </div>
-    </progress>
-
-    <!-- JavaScript -->
-    <p style="width:80%" data-value="80">JavaScript</p>
-    <progress max="100" value="80" class="javascript">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 80%">80%</span>
-      </div>
-    </progress>    
-  </li>
-  <li>
-
-    <!-- Bootstrap -->
-    <p style="width:75%" data-value="80">Bootstrap</p>
-    <progress max="100" value="80" class="bootstrap">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 75%">80%</span>
-      </div>
-    </progress>    
-
-    <!-- SASS -->
-    <p style="width:70%" data-value="70">SASS</p>
-    <progress max="100" value="70" class="modx">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 70%">70%</span>
-      </div>
-    </progress> 
-
-    <!-- React -->
-    <p style="width:60%" data-value="60">React</p>
-    <progress max="100" value="60" class="react">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 60%">60%</span>
-      </div>
-    </progress>  
-    
-    <!-- PHP -->
-    <p style="width:50%" data-value="50">PHP</p>
-    <progress max="100" value="50" class="php">
-      <!-- Browsers that support HTML5 progress element will ignore the html inside `progress` element. Whereas older browsers will ignore the `progress` element and instead render the html inside it. -->
-      <div class="progress-bar">
-        <span style="width: 50%">50%</span>
-      </div>
-    </progress>   
-
-  </li>
-</ul>
+    <ul id="skill">
+      <li><span class="bar skill-100"></span><h3>Getting Jobs Done.</h3></li>
+      <li><span class="bar skill-90"></span><h3>HTML5, CSS3</h3></li>
+      <li><span class="bar skill-85"></span><h3>JavaScript and jQuery</h3></li>
+      <li><span class="bar skill-80"></span><h3>Wordpress</h3></li>
+      <li><span class="bar skill-80"></span><h3>Bootstrap</h3></li>
+      <li><span class="bar skill-80"></span><h3>SASS</h3></li>
+      <li><span class="bar skill-70"></span><h3>React</h3></li>
+      <li><span class="bar skill-60"></span><h3>PHP</h3></li>
+    </ul>
 
   </div>
-
 </div>
 
 <!-- Paraxify -->
