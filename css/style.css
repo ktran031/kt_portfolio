@@ -344,12 +344,12 @@ body {
 }
 
 #portfolio {
-  background-image: url("../images/moon.jpg");
+  /*background-image: url("../images/moon.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 50% 50%;*/
   height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 50%;
   color: white;
   font-family: "Avenir Next", Arial, Helvetica, sans-serif;
   text-align: center;
@@ -706,13 +706,13 @@ footer#footer {
     width:90%;
     -moz-animation:html-css 2s ease-out;
     -webkit-animation:html-css 2s ease-out;
-    background-color: #f0bb4b;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
-    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
-    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
-    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
-    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
-    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+    background-color: #478a3b6e;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#478a3b6e), to(#48a9426b));
+    background-image: -webkit-linear-gradient(top, #478a3b6e, #48a9426b);
+    background-image: -moz-linear-gradient(top, #478a3b6e, #48a9426b);
+    background-image: -ms-linear-gradient(top, #478a3b6e, #48a9426b);
+    background-image: -o-linear-gradient(top, #478a3b6e, #48a9426b);
+    background-image: linear-gradient(top, #478a3b6e, #48a9426b)
 }
 
 .skill-85 {
@@ -732,13 +732,13 @@ footer#footer {
     width:80%;
     -moz-animation:skill-80 2s ease-out;
     -webkit-animation:skill-80 2s ease-out;
-    background-color: #478a3b6e;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#478a3b6e), to(#48a9426b));
-    background-image: -webkit-linear-gradient(top, #478a3b6e, #48a9426b);
-    background-image: -moz-linear-gradient(top, #478a3b6e, #48a9426b);
-    background-image: -ms-linear-gradient(top, #478a3b6e, #48a9426b);
-    background-image: -o-linear-gradient(top, #478a3b6e, #48a9426b);
-    background-image: linear-gradient(top, #478a3b6e, #48a9426b)
+    background-color: #f0bb4b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+    background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+    background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
 .skill-70 {
