@@ -6,12 +6,15 @@ hr {
   width: 20%;
 }
 
+.jumbotron h2 {
+    text-transform: inherit;
+}
 /* Nav */
 
 .navbar {
     margin-bottom: 0;
-    background-color: #000;
-    opacity: .9;
+    background-color: #0e0e0e;
+    /*opacity: .9;*/
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -246,7 +249,7 @@ body {
 }
 
 .social-top {
-  /*padding-top: 115px;*/
+  padding-top: 115px;
 }
 
 #bgvid {
